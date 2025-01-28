@@ -1,0 +1,9 @@
+
+.carditem{
+    background-color: rgb(179, 252, 228);
+    margin:0.5em;
+    border-color: rgb(0, 0, 0);
+    border-radius: 0.5em;
+    width:25em;
+   height: 14em;
+}

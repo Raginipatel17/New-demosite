@@ -1,0 +1,71 @@
+.display{
+    position: relative;
+    background-image: url(download.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 100vw;
+    height:40em;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.displaydiv{
+    margin-left: 2em !important;
+
+}
+.title{
+    text-align: left;
+
+}
+.titledis{
+    text-align: left;
+}
+.rating{
+    margin:2em;
+    
+    color:rgb(218, 163, 35);
+}
+.ratingtext{
+    color:black;
+    font-weight: bolder;
+    margin:0.5em;
+}
+.titlepart{
+    margin:1em;
+    width:50vw;
+}
+.title{
+    width:45vw;
+    font-size: 3vw;
+    word-wrap: break-word;
+}
+.about{
+    margin:1em;
+    font-size: 2vw;
+
+    display: flex;
+    gap:0.625em;
+    color:rgb(152, 107, 23)
+}
+.about span h3{
+    display: inline;
+    margin:0.3em;
+    
+    color:rgb(0, 0, 78)
+}
+.action button{
+    width:10em;
+    font-size: 1em;
+    font-weight: bold;
+}
+.action{
+    margin:1em;
+    display: flex;
+    gap:2em;
+    
+}
+@media only screen and (max-width:600px) {
+    .display{
+        background: none;
+    }
+}

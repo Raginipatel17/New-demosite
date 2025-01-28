@@ -1,0 +1,39 @@
+.outerdiv{
+    padding:0.5em;
+    background-color: rgb(231, 231, 231); 
+}
+.cards{
+    display: flex;
+    justify-content: center;
+}
+.card{
+  color: rgb(0, 0, 0);
+  width:18em;
+  height:10em;
+  padding:0.625em;
+  margin:1em;
+
+}
+.card div a:hover{
+    text-decoration: underline;
+}
+.cardicon{
+    color:orange;
+    font-size: 1.5em;
+}
+.title{
+    font-weight: bolder;
+
+}
+.desc{
+    color: rgb(77, 75, 75);
+    word-wrap: break-word;
+    word-break: break-all;
+}
+div a{
+    color:black;
+}
+.button{
+    color:white;
+    background-color: rgb(2, 2, 148);
+}

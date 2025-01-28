@@ -1,0 +1,39 @@
+.Qna{
+  text-align: left;
+}
+.Faqsection{
+    width:80%;
+    font-size: normal;
+    border-radius: 1em;
+    height:6em;
+  }
+  .Question{
+    box-shadow: 0px 0px 2px 2px rgb(172, 182, 191);
+    padding:0.625em;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  @media only screen and (max-width:600px){
+    .Faqsection{
+      height: 10em !important;
+      
+    }
+}
+@media only screen and (max-width:800px){
+  .Faqsection{
+    height: 8em;
+    
+  }
+}
+@media only screen and (max-width:1200px){
+  .Faqsection{
+    height: 7em !important;
+    
+  }
+}
+@media only screen and (max-width:400px){
+  .Faqsection{
+    height: 10em !important;  
+  }
+}
+  

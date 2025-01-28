@@ -1,0 +1,96 @@
+.videooutersection{
+    background-color: #1C4670;
+    height:30em !important;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    color: #ffffff;
+}
+.title{
+    color:white;
+}
+.about{
+    width: 25em;
+}
+.video{
+    border-radius: 1em;
+}
+.explore{
+    display: flex;
+    gap:3em !important;
+}
+.info{
+    align-items: center;
+    width: 25em;
+    margin-left: 2em;
+}
+@media only screen and (max-width:600px){
+    .videooutersection{
+        height:50em !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .video{
+       width: 20em;
+       height:15em !important;
+    }
+    .info{
+        margin:0px !important;
+        padding:1em;
+        width:20em;
+    }
+    .about{
+        width: 20em;
+    }
+    
+}
+@media only screen and (max-width:800px){
+    .explore{
+        display: block;
+        gap:3em !important;
+    }
+}
+@media only screen and (max-width:1200px){
+    .videooutersection{
+        height:53em !important;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .video{
+        width: 25em;
+        height:20em !important;
+     }
+     .youtube{
+        height:20em;
+        margin:0 !important;
+     }
+     .info{
+        margin:0px !important;
+        padding:1.5em;
+        width:90vw;
+        text-align: center;
+    }
+    .about{
+        width: 90vw;
+    }
+}
+@media only screen and (max-width:400px){
+    .videooutersection{
+        height:50em !important;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+    .video{
+       width: 20em;
+       height:15em !important;
+    }
+    .info{
+        margin:0px !important;
+        padding:1em;
+        width:20em;
+    }
+    .about{
+        width: 20em;
+    }
+    .youtube{
+        margin: 0px !important;
+    }
+}

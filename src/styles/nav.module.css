@@ -1,0 +1,76 @@
+
+.navbar{
+    color:black;
+    display: flex;
+    margin:0;
+    
+}
+h1{
+    margin: 0px;
+}
+.links{
+    display: flex;
+    position: absolute;
+    right:4vw;
+    top:4em;
+    gap:1vw;
+
+}
+
+.links a{
+    color: black;
+    font-weight: bold;
+}
+.logo{
+    color:red;
+    font-size: 2em;
+}
+.logodiv{
+    display: flex;
+    font-size: 0.8em;
+    gap:1em;
+    margin-left:1em;
+}
+button{
+    background-color: rgb(255, 201, 38);
+    border:none;
+    border-radius: 0.7em !important;
+    border-radius: 0.3em;
+    padding:0.625em;
+    color:white;
+}
+button:hover{
+    transition:0.8s;
+    transform: translateY(-10px);
+    background-color: rgba(255, 201, 38,0.8);
+}
+.icon{
+   margin:0.5em;
+}
+.line{
+    display: none !important;
+    font-size: 2em;
+
+}
+a{
+    text-decoration: none !important;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height:4em;
+}
+.navdropdown{
+    width:3em;
+    background-color: aqua;
+    height:2em;
+}
+@media only screen and (max-width:850px){
+    .line{
+        display: block !important;
+    
+    }
+    .links{
+        display: none;
+    }
+}
