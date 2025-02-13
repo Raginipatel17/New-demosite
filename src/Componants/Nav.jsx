@@ -14,7 +14,7 @@ export function Navbar(){
         <div className={Navstyle.nav}>
             <Logo/>
             <Nav/>
-            <button className={`bg-white text-black ${Navstyle.line} p-0` }onClick={Navfunction}>
+            <span className={`bg-white text-black ${Navstyle.line} p-0` }onClick={Navfunction}>
                 {
                     status?
                     <span className='mx-3 d-block' style={{width:"2em",height:"2em"}}>&times;</span>
@@ -22,16 +22,16 @@ export function Navbar(){
                     <span className='mx-3 d-block' style={{width:"2em",height:"2em"}}>&#9776;</span>
                     
                 }
-            </button>
+            </span>
         </div>
             {
                 status && (
-                <div className='d-block bg-secondary-emphasis border border-secondary border-2 rounded-1'>
-                        <div className='text-start border-bottom border-black border-2 px-4 fw-bold p-1'><NavLink to={'/'}>Home</NavLink></div>
-                        <div className='text-start border-bottom border-black border-2 px-4 fw-bold p-1'><NavLink to={'/our-services'}>Our Services</NavLink></div>
-                        <div className='text-start border-bottom border-black border-2 px-4 fw-bold p-1'><NavLink to={'/blog'}>Blog</NavLink></div>
-                        <div className='text-start border-bottom border-black border-2 px-4 fw-bold p-1'><NavLink to={'/Contactus'}>Contact Us</NavLink></div>
-                        <div className='text-start border-secondary border-2 px-4 fw-bold p-1'><NavLink to={'/Aboutus'}>About Us</NavLink></div>
+                <div className='d-block bg-secondary-emphasis border-b m-2 border-secondary rounded-1'>
+                        <div className='text-start border-bottom border-secondary border-2 px-4 fw-bold'><NavLink to={'/'}>Home</NavLink></div>
+                        <div className='text-start border-bottom border-secondary border-2 px-4 fw-bold'><NavLink to={'/our-services'}>Our Services</NavLink></div>
+                        <div className='text-start border-bottom border-secondary border-2 px-4 fw-bold'><NavLink to={'/blog'}>Blog</NavLink></div>
+                        <div className='text-start border-bottom border-secondary border-2 px-4 fw-bold'><NavLink to={'/Contactus'}>Contact Us</NavLink></div>
+                        <div className='text-start border-bottom border-secondary border-2 px-4 fw-bold'><NavLink to={'/Aboutus'}>About Us</NavLink></div>
 
                 </div>
             )
