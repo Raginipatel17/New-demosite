@@ -2,11 +2,12 @@
     /* background-color: aquamarine; */
     height:5em;
     margin: 0px !important;
+    background-color: white;
 }
 .trustedbrand h3{
     margin:0px;
     font-size: 2vw;
-    color: rgb(81, 78, 78);
+    color: rgb(82, 79, 79);
 }
 .brandname{
     display: flex;
